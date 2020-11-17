@@ -16,11 +16,28 @@
     --color-neutral-dark: DARKSLATEGRAY;
 
     /* Shadows */
+    --global-box-shadow: 0 0 0 px rgba(0,0,0,.025), 0 2px 6px rgba(0,0,0,.05);
+    --global-box-shadow-lg: 0 0 0 px rgba(0,0,0,.025), 0 2px 10px rgba(0,0,0,.1);
+
+    --global-input-shadow: 0 2px 3px rgba(0,0,0,.05);
+    --global-input-focus-shadow: 0 0 5px var(--global-color-alpha-light);
 
     /* border radius */
+    --global-borderRadius: 4px;
 
     /* transitions */
     --transition-alpha: .1s;
+
+    /* Whitespace */
+    --global-baseline: 5px;
+    --global-whitespace-xxs: var(--global-baseline); /* 5 */
+    --global-whitespace-xs: calc(var(--global-baseline) * 2); /* 10 */
+    --global-whitespace-sm: calc(var(--global-baseline) * 3); /* 15 */
+    --global-whitespace-md: calc(var(--global-baseline) * 4); /* 20 */
+    --global-whitespace-lg: calc(var(--global-baseline) * 5); /* 25 */
+    --global-whitespace-xl: calc(var(--global-baseline) * 6); /* 30 */
+
+    --pi: 3.14159265359;
 }
 
 /*------------------------------------*\
